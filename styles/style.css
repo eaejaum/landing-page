@@ -1,1 +1,108 @@
+body {
+    background: rgb(32, 32, 32);
+    color: white;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    line-height: 30px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgba(132, 14, 201);
+    transition: 0.3s all;
+}
+
+.inscreva-se-button {
+    border: 2px solid rgba(132, 14, 201);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.inscreva-se-button:hover {
+    color: white;
+    background-color: rgba(132, 14, 201);
+    transition: 0.3s;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+aside {
+    margin-right: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-weight: 700;
+}
+
+span {
+    color: rgba(132, 14, 201);
+} 
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img {
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+} 
+
+input {
+    margin-top: 15px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+form [type = "submit"]{
+    height: 50px;
+    width: 50%;
+    color: white;
+    background-color: rgba(132, 14, 201);
+    font-weight: bold;
+}
+
+form [type = "submit"]:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
